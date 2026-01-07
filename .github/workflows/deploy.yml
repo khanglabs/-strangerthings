@@ -26,7 +26,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: stranger-things-vn-fan-portal/package-lock.json
+          cache-dependency-path: stranger-things-vn-fan-portal/package.json
 
       - name: Install dependencies
         working-directory: stranger-things-vn-fan-portal
